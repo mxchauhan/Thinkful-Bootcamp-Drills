@@ -1,0 +1,29 @@
+QUERY #1
+
+SELECT
+	trip_id,
+	duration
+FROM
+	trips
+WHERE
+	duration > 500
+ORDER BY duration DESC
+
+
+QUERY #2
+
+SELECT
+	*
+FROM
+	stations
+WHERE
+	station_id = 84
+
+QUERY #3
+
+SELECT
+	MinTemperatureF
+FROM
+	weather
+WHERE
+	ZIP = 94301
